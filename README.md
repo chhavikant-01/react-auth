@@ -21,13 +21,13 @@ Backend:
 1. Clone the repository:
 
 ```
-git clone 
+git clone git@github.com:chhavikant-01/react-auth.git
 ```
 
 2. Install dependencies:
 Navigate to the project directory:
 ```
-cd folder-name
+cd react-auth
 ```
 
 3. Install backend dependencies:
@@ -40,6 +40,14 @@ npm install
 ```
 cd client
 npm install
+```
+
+5. Configure MongoDB and JWT:
+Create the .env file in the root directory with the following contents:
+
+```
+MONGO_URI="mongodb+srv://chhavikant:QvQQB4hWuoYHQONx@user-auth.3kcfvhn.mongodb.net/"
+JWT_SECRET="R8ZLFmLQk0OxJxQNK00G9T9fV5HlCmZj"
 ```
 
 
