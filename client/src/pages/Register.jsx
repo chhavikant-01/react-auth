@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import "../styles/Register.css";
